@@ -47,10 +47,10 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
 
                 <div class='col-lg-4'>
-                    <a href="#" title="monter"><button type="button" class="btn btn-info"><i class="fas fa-arrow-circle-up"></i></button></a>
-                    <a href="#" title="descendre"><button type="button" class="btn btn-info"><i class="fas fa-arrow-circle-down"></i></button></a>
-                    <a href="traitementModif.php" title="Modifier"><button type="button" class="btn btn-success btn-taille">Modifier</button></a>
-                    <a href="traitementSup.php" title="Supprimer"><button type="button" class="btn btn-danger btn-taille">Supprimer</button></a>
+                <a href="#" title="monter"><button type="button" class="btn "><i class="far fa-caret-square-down"></i></button></a><?php echo "  ".$valeur['position']."  "?><a href="#" title="monter"><button type="button" class="btn "><i class="far fa-caret-square-up"></i></button></a>
+                    
+                    <a href="traitementModif.php" title="Modifier"><button type="button" class="btn btn-success">Modifier</button></a>
+                    <a href="traitementSup.php" title="Supprimer"><button type="button" class="btn btn-danger">Supprimer</button></a>
                 </div>
                 <?php }?>    
             </div>
