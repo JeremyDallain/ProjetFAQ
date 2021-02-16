@@ -11,6 +11,6 @@
 </head>
 <body>
     <header>
-        <h1>Hackathon : FAQ</h1>
+        <h1>Hackathon : FAQ Cocktail</h1>
     </header>
         
