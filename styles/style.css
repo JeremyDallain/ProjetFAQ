@@ -35,5 +35,10 @@ h2{
     margin-top: 20px;
     margin-bottom: 50px;
 }
-
+.form-style{
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width:500px;
+}
 

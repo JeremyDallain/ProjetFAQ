@@ -9,7 +9,7 @@
             <h2>Accueil</h2>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end class1">
                 <a href="#" title="pdf"><button type="button" class="btn btn-info">Télécharger en PDF</button></a>
-                <a href="admin.php" title="admin"><button type="button" class="btn btn-info">Admin</button></a>
+                <a href="admin.php" title="Administrateur"><button type="button" class="btn btn-info">Administrateur</button></a>
             </div>
 
             <div class="accordion accordion-flush" id="accordionFlushExample">
