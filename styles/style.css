@@ -41,4 +41,6 @@ h2{
     text-decoration: none;
     width:500px;
 }
-
+.btn-taille{
+    width:35%;
+}
