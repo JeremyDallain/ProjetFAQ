@@ -14,11 +14,11 @@
             <form action ="traitementNewQuestion.php" method="post">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Question :</label>
-                    <input type="texr" class="form-control" id="exampleFormControlInput1" placeholder="Votre Question">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name="question" placeholder="Votre Question">
                     </div>
                     <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Réponse :</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="reponse" rows="6"></textarea>
                 </div>
                 <a title="traitement Question "><div class="d-grid gap-2  form-style">
                     <button href="traitementNewQuestion.php" class="btn btn-info" type="submit">Envoyer</button>
