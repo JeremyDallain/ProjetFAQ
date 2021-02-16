@@ -1,6 +1,6 @@
 <?php
 // Connexion à la BDD (à personnaliser)
-require_once('../faq/ProjetFAQ/config/pdo.php');
+require_once('config/pdo.php');
 // Si base de données en UTF-8, utiliser la fonction utf8_decode pour tous les champs de texte à afficher
 $bdd= connexionPDO();
 // extraction des données à afficher dans le sous-titre 

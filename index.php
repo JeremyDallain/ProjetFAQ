@@ -19,7 +19,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="container">
             <h2>Accueil</h2>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end class1">
-                <a href="#" title="pdf"><button type="button" class="btn btn-info">Télécharger en PDF</button></a>
+                <a href="faq.php" title="pdf"><button type="button" class="btn btn-info">Télécharger en PDF</button></a>
                 <a href="admin.php" title="Administrateur"><button type="button" class="btn btn-info">Administrateur</button></a>
             </div>
 
