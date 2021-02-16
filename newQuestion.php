@@ -18,7 +18,7 @@
                     </div>
                     <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Réponse :</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" name="reponse" rows="6"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="response" rows="6"></textarea>
                 </div>
                 <a title="traitement Question "><div class="d-grid gap-2  form-style">
                     <button href="traitementNewQuestion.php" class="btn btn-info" type="submit">Envoyer</button>

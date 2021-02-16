@@ -12,7 +12,3 @@ $req = $bdd->query("INSERT INTO faq_cocktail(question,response,position) VALUES 
 $req->execute();
 
 }
-
-header("location: index.php");
-
-?>
