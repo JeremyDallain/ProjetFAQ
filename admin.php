@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <?php
-    $titre="Admin";
+    $titre="Administrateur";
     require_once "header.php";
     ?>
     <main>
     <div class="container">
+            <h2>Administrateur</h2>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end class1">
                 <a href="index.php" title="Page Précédente"><button type="button" class="btn btn-info">Page Précédente</button></a>
+                <a href="newQuestion.php" title="Nouvelle Question"><button type="button" class="btn btn-info">Nouvelle Question</button></a>
             </div>
 
             <div class="accordion accordion-flush" id="accordionFlushExample">
