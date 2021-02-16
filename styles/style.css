@@ -18,7 +18,8 @@
 /* Header et Footer*/
 /*-------Header------*/
 header{
-    background: red;
+    background-image: url('../img/cocktail.jpg');
+    background-size: cover;
     height:300px;
     color: white;
     text-align: center;
